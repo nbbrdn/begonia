@@ -84,6 +84,24 @@ header {
     height: 38px;
 }
 
+.social-icons {
+    display: flex;
+}
+
+.social-icons span,
+.social-icons div {
+    margin-left: 1.2rem;
+}
+
+.social-icons div {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/avatar.jpg);
+    border-radius: 50%;
+}
+
 main {
     margin-top: 60px;
     background: #f1f5f9;
